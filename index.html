@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小学语文阅读理解技巧</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">部编补充版本</p>
+        <h1>小学语文阅读理解技巧</h1>
+        <p class="hero__summary">
+          按题型与能力点梳理常考问法、方法口诀和答题模板，适合课堂讲解、复习归纳与考前速查。
+        </p>
+        <div class="metrics" aria-label="表格概览">
+          <div class="metric">
+            <span id="metricCategories">0</span>
+            <small>知识类别</small>
+          </div>
+          <div class="metric">
+            <span id="metricItems">0</span>
+            <small>阅读技巧</small>
+          </div>
+        </div>
+      </div>
+      <img class="hero__art" src="assets/reading-mark.svg" alt="蓝色书页阅读插画" />
+    </header>
+
+    <main>
+      <section class="toolbar" aria-label="分类与搜索">
+        <div class="searchBox">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="m21 21-4.35-4.35m1.35-5.15a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" />
+          </svg>
+          <input id="searchInput" type="search" placeholder="搜索知识点、问法、方法或模板" />
+        </div>
+        <div class="resultLine" id="resultLine"></div>
+        <nav class="categoryTabs" id="categoryTabs" aria-label="知识点类别"></nav>
+      </section>
+
+      <section class="contentBand">
+        <div id="catalog" class="catalog" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer>
+      <span id="sourceName"></span>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
