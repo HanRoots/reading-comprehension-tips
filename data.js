@@ -1,5 +1,4 @@
 window.READING_DATA = {
-  "source": "阅读理解技巧（部编补充版本）.xlsx",
   "title": "小学语文阅读理解技巧完整版",
   "subtitle": "部编补充版本 / 苏教版常考内容补充",
   "stats": {

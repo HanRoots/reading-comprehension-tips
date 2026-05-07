@@ -17,7 +17,6 @@ const palette = [
 
 const metricCategories = document.querySelector("#metricCategories");
 const metricItems = document.querySelector("#metricItems");
-const sourceName = document.querySelector("#sourceName");
 const searchInput = document.querySelector("#searchInput");
 const categoryTabs = document.querySelector("#categoryTabs");
 const catalog = document.querySelector("#catalog");
@@ -61,7 +60,6 @@ function itemMatches(item) {
 function renderMetrics() {
   metricCategories.textContent = data.stats.categoryCount;
   metricItems.textContent = data.stats.itemCount;
-  sourceName.textContent = `数据来源：${data.source}`;
 }
 
 function renderTabs() {

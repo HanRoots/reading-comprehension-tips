@@ -67,7 +67,6 @@ def main():
     workbook = openpyxl.load_workbook(SOURCE, data_only=True)
     categories, items = read_main_sheet(workbook)
     payload = {
-        "source": SOURCE.name,
         "title": "小学语文阅读理解技巧完整版",
         "subtitle": "部编补充版本 / 苏教版常考内容补充",
         "stats": {

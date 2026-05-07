@@ -379,13 +379,6 @@ main {
   text-align: center;
 }
 
-footer {
-  padding: 24px clamp(18px, 5vw, 76px) 34px;
-  color: var(--muted);
-  background: #ffffff;
-  border-top: 1px solid var(--line);
-}
-
 mark {
   padding: 0 2px;
   border-radius: 3px;
